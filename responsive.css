@@ -1,0 +1,47 @@
+@media (max-width: 575px) {
+    ...
+}
+
+
+@media (max-width: 767px) {
+    ...
+}
+
+
+@media (max-width: 991px) {
+    .benefit-card-1 {
+        margin-bottom: 20px;
+    }
+
+    .benefit-card-2 {
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+@media (max-width: 1199px) {
+    .nav-item {
+        font-size: 15px;
+    }
+
+    .navbar-nav {
+        gap: 10px;
+    }
+
+
+}
+
+@media (max-width: 1399px) {
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .banner-icon-1,
+    .banner-icon-2,
+    .banner-icon-3,
+    .banner-icon-4 {
+        z-index: -9;
+    }
+}
