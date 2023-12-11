@@ -117,8 +117,10 @@ body {
     line-height: 20px;
     border-radius: 30px;
     background: var(--primary-main, #FF7300);
+    border: 1px solid #FF7300;
 
 }
+
 
 .global-brand {
     padding: 30px 66px;
@@ -241,6 +243,7 @@ body {
     border-radius: 30px;
     background: #FF7300;
     text-decoration: none;
+    border: 1px solid #FF7300;
 
 }
 
@@ -249,6 +252,7 @@ body {
     color: #FF7300;
     border: 1px solid #FF7300;
     border-radius: 30px;
+    transition: all .3s ease-in-out;
 }
 
 .about-btn:hover svg * {
@@ -326,7 +330,6 @@ body {
 
 .benefit-card:hover {
     box-shadow: none;
-    border: 1px solid #FF7300;
     transition: all .2s ease-in-out;
 }
 
@@ -395,9 +398,20 @@ body {
 .seo-cards {
     border-radius: 12px;
     background: #FFF;
-    box-shadow: 0px 15px 40px 0px rgba(30, 33, 45, 0.05);
     width: 100%;
     padding: 30px;
+}
+.seo-cards:hover h5{
+color:#FF7300;
+}
+.seo-cards:hover{
+    box-shadow: 0px 15px 40px 0px rgba(30, 33, 45, 0.05);
+    transition: all .3s ease-in-out;
+}
+
+.seo-cards:hover img{
+    transform: rotate(0.5turn);
+    transition: all .3s ease-in;
 }
 
 .seo {
@@ -535,6 +549,7 @@ body {
     background-color: #FF7300;
     border: 1px solid transparent;
     color: #EBEFF2;
+    transition: all .3s ease-in-out;
 
 
 }
@@ -630,6 +645,18 @@ body {
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
+    border: 1px solid #FF7300;
+}
+.build-btn a:hover{
+    background-color: transparent;
+    border: 1px solid #FF7300;
+    color: black;
+    transition: all .3s ease-in-out;
+
+}
+
+.build-btn:hover svg *{
+    stroke: #FF7300;
 }
 
 .building {
