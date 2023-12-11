@@ -17,6 +17,41 @@
         margin-bottom: 20px;
     }
 
+    .banner-left-col {
+        margin-top: 30px;
+    }
+
+    .left-info h1 {
+        margin-top: 2px;
+        font-size: 35px;
+    }
+
+    .left-info p {
+        margin-top: 6px;
+        margin-bottom: 15px;
+    }
+
+    .banner-icon-4 {
+        display: none;
+    }
+
+    .banner {
+        padding-bottom: 130px;
+    }
+
+    .about {
+        padding: 80px 0 70px 0;
+    }
+
+    .benefit-card {
+        min-height: 1px;
+    }
+
+    .dividerss {
+        display: none;
+    }
+
+
 
 }
 
@@ -30,12 +65,16 @@
         gap: 10px;
     }
 
+    .benefit-card {
+        min-height: 450px;
+    }
+
 
 }
 
 @media (max-width: 1399px) {
     .navbar-nav {
-        gap: 20px;
+        gap: 3px;
     }
 
     .banner-icon-1,
@@ -43,5 +82,15 @@
     .banner-icon-3,
     .banner-icon-4 {
         z-index: -9;
+    }
+
+    .nav-call-btn {
+        font-size: 14px;
+        padding: 12px 10px;
+    }
+
+    .seo-cards {
+        max-height: 357px;
+
     }
 }
